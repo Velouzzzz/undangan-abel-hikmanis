@@ -1,0 +1,4 @@
+# File non-publik (dokumentasi, contoh backend, alat lokal) tidak boleh dilayani di produksi.
+/backend/*                 /404.html  404!
+/README.md                 /404.html  404!
+/generator-link-tamu.html  /404.html  404!
