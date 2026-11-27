@@ -147,7 +147,7 @@ blocks.forEach(sec=>{let i=0;[...sec.children].forEach(el=>{
     k.classList.add('rv',cls);k.style.setProperty('--d',Math.min((i+n)*step,1.1).toFixed(2)+'s')});i+=kids.length})});
 document.querySelectorAll('.profile').forEach((s,n)=>{const f=s.querySelector('.frame');f.classList.remove('l','r','z');f.classList.add(n%2?'r':'l')});
 if('IntersectionObserver'in window){
-  const io=new IntersectionObserver(es=>es.forEach(e=>e.target.classList.toggle('in',e.isIntersecting&&e.intersectionRatio>0)),{threshold:[0,.12],rootMargin:'0px 0px -8% 0px'});
+  const io=new IntersectionObserver(es=>es.forEach(e=>{const on=e.isIntersecting&&e.intersectionRatio>0;if(on)e.target.classList.add('in');e.target.classList.toggle('vis',on)}),{threshold:[0,.12],rootMargin:'0px 0px -8% 0px'});
   document.querySelectorAll('.section,.cover').forEach(e=>io.observe(e));
   /* dock: tandai bagian yang sedang tampil */
   const links=[...document.querySelectorAll('#bottomNav a')],map=new Map(links.map(l=>[l.getAttribute('href').slice(1),l]));
