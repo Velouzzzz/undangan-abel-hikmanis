@@ -41,7 +41,7 @@ window.WEDDING_CONFIG = {
     moments: [
       { date: "[BULAN TAHUN]", title: "[PERTAMA BERTEMU]", text: "[CERITAKAN MOMEN PERTAMA]", illustration: "assets/illustrations/tint/03_cincin_pernikahan_green.webp" },
       { date: "[BULAN TAHUN]", title: "[MULAI BERSAMA]", text: "[CERITAKAN PERJALANAN]", illustration: "assets/illustrations/tint/11_ranting_daun_maroon.webp" },
-      { date: "[BULAN TAHUN]", title: "[LAMARAN]", text: "[CERITAKAN MOMEN LAMARAN]", illustration: "assets/illustrations/tint/12_angsa_hati_maroon.webp" }
+      { date: "[BULAN TAHUN]", title: "[LAMARAN]", text: "[CERITAKAN MOMEN LAMARAN]", illustration: "assets/illustrations/tint/12_maple_leaf_maroon.svg" }
     ]
   },
   gallery: [
