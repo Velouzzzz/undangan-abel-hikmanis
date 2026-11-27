@@ -14,7 +14,7 @@ const RSVP_API_URL = "https://script.google.com/macros/s/AKfycbzEbvalcbEJs2jDjkP
 
 window.WEDDING_CONFIG = {
   couple: {
-    groom: { nickname: "Abel", fullName: "Muhammad Abel Tan Togar Islami", parents: "Putra dari Bapak Hendra Kusuma & Ibu Leni Marlina", photo: "assets/photos/foto-pria-placeholder.svg", alt: "Foto Abel", instagram: "" },
+    groom: { nickname: "Abel Tan", fullName: "Muhammad Abel Tan Togar Islami", parents: "Putra dari Bapak Hendra Kusuma & Ibu Leni Marlina", photo: "assets/photos/foto-pria-placeholder.svg", alt: "Foto Abel Tan", instagram: "" },
     bride: { nickname: "Hikmanis", fullName: "Hikmanis Suprian", parents: "Putri dari Bapak Suprian & Ibu Nurlaili", photo: "assets/photos/foto-wanita-placeholder.svg", alt: "Foto Hikmanis", instagram: "" }
   },
   event: {
@@ -27,7 +27,7 @@ window.WEDDING_CONFIG = {
     mapsEmbedUrl: "https://www.google.com/maps?q=Indonesia&output=embed"
   },
   copy: {
-    title: "Undangan Pernikahan Abel & Hikmanis",
+    title: "Undangan Pernikahan Abel Tan & Hikmanis",
     hashtag: "#ABELongToHikmanis",
     description: "Dengan penuh kebahagiaan, kami mengundang Anda untuk hadir di hari istimewa kami.",
     opening: "Dengan memohon rahmat dan ridho Tuhan Yang Maha Esa, kami bermaksud menyelenggarakan pernikahan putra-putri kami.",
