@@ -135,7 +135,7 @@ textarea{resize:vertical}form .btn{justify-self:start}.form-status{margin:0;font
   50% { transform: translateY(-5px) scale(1.018); }
 }
 .main-content .art:not(.wiggle) { animation: artFloat 7s ease-in-out infinite; }
-.section:not(.in) .art { animation-play-state: paused !important; }
+.section:not(.vis) .art { animation-play-state: paused !important; }
 .main-content .wiggle { animation: wiggle 6s ease-in-out infinite, artFloat 8s ease-in-out infinite; }
 
 /* Foto mempelai: zoom halus ketika section tampil */
