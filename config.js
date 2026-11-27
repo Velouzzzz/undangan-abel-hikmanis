@@ -45,9 +45,9 @@ window.WEDDING_CONFIG = {
     ]
   },
   gallery: [
-    { src: "assets/photos/galeri-placeholder.svg", alt: "Foto prewedding 1" },
-    { src: "assets/photos/galeri-placeholder.svg", alt: "Foto prewedding 2" },
-    { src: "assets/photos/galeri-placeholder.svg", alt: "Foto prewedding 3" }
+    { src: "assets/photos/prewed-1.webp", alt: "Foto prewedding 1", pos: "50% 28%" },
+    { src: "assets/photos/prewed-2.webp", alt: "Foto prewedding 2", pos: "58% 30%" },
+    { src: "assets/photos/prewed-3.webp", alt: "Foto prewedding 3", pos: "45% 40%" }
   ],
   gifts: {
     enabled: true,

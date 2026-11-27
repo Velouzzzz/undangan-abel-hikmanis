@@ -40,8 +40,8 @@ if(C.sections?.wishes===false){$('wishList').hidden=true;document.querySelector(
 /* kisah, galeri, lightbox */
 $('storyList').innerHTML=(C.story?.moments||[]).map(m=>`<article class="story-item"><img width="72" height="72" loading="lazy" decoding="async" src="${safe(m.illustration)}" alt=""><div><small>${safe(m.date)}</small><h3>${safe(m.title)}</h3><p>${safe(m.text)}</p></div></article>`).join('');
 const gallery=C.gallery||[];let photoIndex=0;
-const FRAME='assets/illustrations/tint/06_frame_floral_maroon.webp';
-$('galleryGrid').innerHTML=gallery.map((p,i)=>`<button type="button" class="g-item" data-photo="${i}" aria-label="Buka foto ${i+1}"><span class="g-photo"><img loading="lazy" src="${safe(p.src)}" alt="${safe(p.alt)}"></span><img class="g-frame" width="334" height="343" loading="lazy" decoding="async" src="${FRAME}" alt="">${/placeholder/i.test(p.src||'')?'<span class="g-pill">♡ Ganti foto di sini ♡</span>':''}</button>`).join('');
+const FRAME='assets/illustrations/tint/06_frame_floral_green.webp';
+$('galleryGrid').innerHTML=gallery.map((p,i)=>`<button type="button" class="g-item" data-photo="${i}" aria-label="Buka foto ${i+1}"><span class="g-photo"><img loading="lazy" src="${safe(p.src)}" alt="${safe(p.alt)}"${p.pos?` style="object-position:${safe(p.pos)}"`:''}></span><img class="g-frame" width="334" height="343" loading="lazy" decoding="async" src="${FRAME}" alt="">${/placeholder/i.test(p.src||'')?'<span class="g-pill">♡ Ganti foto di sini ♡</span>':''}</button>`).join('');
 let lbOpener=null;
 function openPhoto(i){if(!gallery.length)return;photoIndex=(i+gallery.length)%gallery.length;const p=gallery[photoIndex];$('lightboxImage').src=p.src;$('lightboxImage').alt=p.alt||'';if($('lightbox').hidden){lbOpener=document.activeElement;$('lightbox').hidden=false;$('closeLightbox').focus()}}
 function closePhoto(){$('lightbox').hidden=true;$('lightboxImage').removeAttribute('src');if(lbOpener&&lbOpener.focus)lbOpener.focus()}
