@@ -64,5 +64,5 @@ window.WEDDING_CONFIG = {
   theme: { ink: "#6B1E27", green: "#2F4A38", accent: "#E8892B", paper: "#E5E6D6", text: "#4A3A38" },
   sections: { story: true, gallery: true, rsvp: true, wishes: true, gifts: true, bottomNav: true, qr: false },
   effects: { boilingLine: true, flowerGrowth: true, parallax: true, petals: true, handwriting: true, easterEgg: true, autoDisableOnLowPower: true },
-  seo: { ogImage: "assets/og/og-preview.png", siteUrl: "https://example.com" }
+  seo: { ogImage: "assets/og/og-preview.png", siteUrl: "https://abelongtohikmanis.web.id" }
 };
